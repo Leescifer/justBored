@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Scroll & Swipe Triggered Animation</title>
+  <link rel="stylesheet" href="slider.css" />
+</head>
+
+<body>
+
+  <a href="index.html">Back</a>
+
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+
+
+  <div class="container">
+    <div class="left">
+      <img src="./images/good.jpg" class="image visible" data-index="0" />
+      <img src="./images/mountains.jpg" class="image" data-index="1" />
+      <img src="./images/scenery.jpg" class="image" data-index="2" />
+    </div>
+    <div class="right">
+      <h1 class="tagline visible" data-index="0">Adventure Awaits</h1>
+      <h1 class="tagline" data-index="1">Find Your Path</h1>
+      <h1 class="tagline" data-index="2">The Journey is Yours</h1>
+    </div>
+  </div>
+
+  <div class="scroll-space">
+    <div class="step" data-index="0"></div>
+    <div class="step" data-index="1"></div>
+    <div class="step" data-index="2"></div>
+  </div>
+
+  <script src="./js/slider.js"></script>
+</body>
+
+</html>
